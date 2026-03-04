@@ -32,8 +32,34 @@ body{
         grid-template-columns: auto;
     }
    }
+.pai{
+    text-align: center;
+}
 
+.sla{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    border: thistle 2px solid;
+    border-radius: 20px;
+    background-color: rgb(55, 88, 83);
+}
+.ima-pro{
+    width: 320px;
+}
 
+.prod{
+    color: antiquewhite;
+    font-size: x-large;
+}
+.pre{
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+.
 
 
 
@@ -43,12 +69,12 @@ header{
     grid-area: header;
 }
 main{
-    height: 500px;
+    height: auto;
     background-color: rgb(53, 83, 83);
     grid-area: corpo;
 }
 aside{
-    height: 500px;
+    height: auto;
     background-color: rgb(173, 162, 162);
     grid-area: aura;
 }
